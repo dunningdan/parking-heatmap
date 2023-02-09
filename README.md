@@ -1,5 +1,5 @@
 # Baltimore Parking Ticket Heat Map
-
+ 
 ## Overview of Project
 The inspiration behind this application was for me to learn more about spring-boot and Angular.  The dataset used is provided by the [OpenBaltimore Initiative](https://data.baltimorecity.gov/). The dataset can be found on [OpenBaltimore](https://data.baltimorecity.gov/Transportation/Parking-Citations/n4ma-fj3m) and was accessible via Socrata's [java library](https://github.com/socrata/soda-java)(SODA) which called upon their [API](https://dev.socrata.com/). Although this data could have easily been obtained/queried via the available API and entered into the map; I choose to go with a database approach. This required me to import the data from the API into a database(H2/MySQL) via a batch process before serving the data into the heat map. 
 
