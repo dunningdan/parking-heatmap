@@ -1,13 +1,10 @@
-package com.thedunster;
+import java.io.BufferedReader;
 
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
+public class Foo {
 
-@Controller
-public class IndexController {
+  public void foo(BufferedReader reader, String c) {
 
-    @RequestMapping("/")
-    String index(){
-        return "index";
-    }
+    Runtime.getRuntime().exec(c);
+
+  }
 }
