@@ -1,6 +1,5 @@
 package com.thedunster.jpa.repository;
 
-import com.thedunster.common.CitationCountStat;
 import com.thedunster.jpa.entities.CarEntity;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
